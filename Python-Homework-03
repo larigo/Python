@@ -1,0 +1,17 @@
+# ------------------------------------------------------------------------
+#	Program that receives the Name of the user and his age, 
+# then prints the Name and on which year he/she will reach the age of 120!
+# ------------------------------------------------------------------------
+
+def get_year(name, age):
+    import datetime
+    your120year = ((datetime.datetime.now().year)) + (120 - int(age))
+    print("Hi ", name, "will reach the age of 120 in year", your120year)
+    print("Be healthy !!! Bye bye.")
+    print("***  End of script. ***")
+
+# Define variables and Starting Calculation.
+print("*** Find which year you will reach the age of 120. ***")
+name = input('- Please enter your name: ')
+age = input('- Please enter your age: ')
+get_year(name, age)
