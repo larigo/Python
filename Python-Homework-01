@@ -1,7 +1,7 @@
 # ------------------------------------------------------------------------
-# 1- Take a list, for example:    [4, 2 , 7 , 8, 9, 10, 2, 8, 6]
-#     A- Write a Python function that calculates the Sum of the list
-#     B- Write a Python function that calculates the Average of the list
+# Take a list, for example:    [4, 2 , 7 , 8, 9, 10, 2, 8, 6]
+#     A- Python function that calculates the Sum of the list
+#     B- Python function that calculates the Average of the list
 # ------------------------------------------------------------------------
 
 def calc_sum(array):
