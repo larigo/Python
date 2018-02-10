@@ -1,0 +1,18 @@
+# ------------------------------------------------------------------------
+#		Python function that counts the vowel letters (a,e,i,o,u) in a given string!
+# ------------------------------------------------------------------------
+
+def counts_vowel_letters(array):
+    print("*** Counts the vowel letters (a,e,i,o,u) in a string ***")
+    print("      This is my string : ", array)
+    n_vowel = 0
+    vowel_letters = "aeiou"
+    for char in (vowel_letters):
+      if char in array:
+       n_vowel = n_vowel + 1
+    print("- Number of vowel letters in the string : ", n_vowel)
+    print("***  End of script. ***")
+
+# Define variables and Starting Calculation.
+string = "washington"
+counts_vowel_letters(string)
