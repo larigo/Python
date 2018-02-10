@@ -1,0 +1,24 @@
+# ------------------------------------------------------------------------
+# 1- Take a list, for example:    [4, 2 , 7 , 8, 9, 10, 2, 8, 6]
+#     A- Write a Python function that calculates the Sum of the list
+#     B- Write a Python function that calculates the Average of the list
+# ------------------------------------------------------------------------
+
+def calc_sum(array):
+    print("*** 1.A. Calculates the Sum of the list ***")
+    # print("*** 1.B. Calculates the Average of the list ***")
+    print("This is my list : ", array)
+    sum = 0
+    qnt = 0
+    for i in (array):
+     qnt = qnt + 1
+     sum = sum + i
+    avr = sum / qnt
+    print("- Number of characters in the array : ", qnt)
+    print("- Sum of the array : ", sum)
+    print("- Average of the list : ", avr)
+    print("***  End of script. ***")
+
+# Define variables and Starting Calculation.
+my_list = [4, 2, 7, 8, 9, 10, 2, 8, 6]
+calc_sum(my_list)
